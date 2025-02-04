@@ -19,15 +19,6 @@ env:
   # Misc
   GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  # Signing info
-  IDE_SIGNING_ALIAS: ${{ secrets.IDE_SIGNING_ALIAS }}
-  IDE_SIGNING_AUTH_PASS: ${{ secrets.IDE_SIGNING_AUTH_PASS }}
-  IDE_SIGNING_AUTH_USER: ${{ secrets.IDE_SIGNING_AUTH_USER }}
-  IDE_SIGNING_KEY_PASS: ${{ secrets.IDE_SIGNING_KEY_PASS }}
-  IDE_SIGNING_STORE_PASS: ${{ secrets.IDE_SIGNING_STORE_PASS }}
-  IDE_SIGNING_URL: ${{ secrets.IDE_SIGNING_URL }}
-  IDE_SIGNING_KEY_BIN: ${{ secrets.IDE_SIGNING_KEY_BIN }}
-
   # Publishing credentials
   ORG_GRADLE_PROJECT_mavenCentralUsername: ${{ secrets.MVN_USERNAME }}
   ORG_GRADLE_PROJECT_mavenCentralPassword: ${{ secrets.MVN_PASSWORD }}
